@@ -52,9 +52,9 @@ const fs = require('fs');
                         // console.log(key2, descriminacaoOperacao[key][key2])
                         // console.log(key2)
                         switch (key2) {
-                            case 'quantidade_registrada':
-                            case 'quantidade_faturada':
-                            case 'tarifa_impostos':
+                            case 'quantidade':
+                            case 'tarifa_sem_impostos':
+                            case 'tarifa_com_impostos':
                             case 'valor':
                             case 'base_calculo_icms':
                             case 'aliquota_icms':
